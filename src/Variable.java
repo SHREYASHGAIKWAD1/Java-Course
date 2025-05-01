@@ -5,7 +5,7 @@ class Main {
         System.out.print("I am a programmer!");
         System.out.println("Hello World!");
         System.out.println("I love Java!");
-
+        System.out.println(args[0]);
     }
 }
 
