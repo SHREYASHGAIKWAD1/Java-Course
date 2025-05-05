@@ -1,5 +1,7 @@
 // Boilerplate code and running my first program(printing statements)!
 
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
         System.out.print("I am a programmer!");
@@ -115,5 +117,14 @@ class constant {
         //PI = 3;
         //System.out.println(PI);
         //Once variable set to constant(final keyword), it cannot be reassigned, or it's value cannot be changed.
+    }
+}
+
+//Reading input in java
+import java.util.Scanner;
+
+ class Reading_input {
+    public static void main(String[] args) {
+        Scanner sc = new Sannner(System.in);
     }
 }
