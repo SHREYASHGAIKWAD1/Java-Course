@@ -51,7 +51,7 @@ class data_types {
         long g = 3_000_000_000L;
         System.out.println(g);
 
-        float f = 3.8F;  //(range = 1.40239846 x 10^-45 : 3.40239846 x 10^38  /34bits)
+        float f = 3.8F;  //(range = 1.40239846 x 10^-45 : 3.40239846 x 10^38  /32bits)
         System.out.println(f);
 
         double d = 2.7; //(range = 4.94065............ x 10^-324 : 1.79769............. x 10^308  /64bits)
@@ -97,7 +97,7 @@ class Typecast {
 
         //Explicit Typecasting(User defined)
         long x = 1000000;
-        int y = (int)x;
+        int y = (int) x;
         System.out.println(y);
 
         int a = 2000;
@@ -112,5 +112,8 @@ class constant {
         final double PI;
         PI= 3.14159265358979;
         System.out.println(PI);
+        //PI = 3;
+        //System.out.println(PI);
+        //Once variable set to constant(final keyword), it cannot be reassigned, or it's value cannot be changed.
     }
 }
