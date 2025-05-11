@@ -8,6 +8,9 @@ class Main {
         System.out.println("Hello World!");
         System.out.println("I love Java!");
         System.out.println(args[0]);
+        System.out.println("Hello City!");
+        System.out.println("Hello City!!!");
+        System.out.println("Hello City!!!!!");
     }
 }
 
